@@ -92,9 +92,9 @@ class Patient:
             utility=TRANS_UTILITY[self.THERAPY][self.healthstat]*delta_t
             # update total discounted cost and utility (corrected for the half-cycle effect)
             self.totalDiscountCost += \
-                EconCls.pv(cost, Discount_Rate, k + 1)
+                EconCls.pv(cost, Discount_Rate*delta_t, k + 1)
             self.totalDiscountUtility += \
-                EconCls.pv(utility, Discount_Rate, k + 1)
+                EconCls.pv(utility, Discount_Rate*delta_t, k + 1)
             # update health state
             self.healthstat =new_state_index[0]
             # increment time step
