@@ -1,3 +1,3 @@
 Name,E[Cost],E[Effect],E[dCost],E[dEffect],ICER
-Without Therapy,"215 (188, 244)","6.18 (6.12, 6.25)",-,-,-
-With Therapy,"394 (344, 445)","6.14 (6.07, 6.21)",-,-,Dominated
+Without Therapy,"182 (160, 205)","6.22 (6.16, 6.29)",-,-,-
+With Therapy,"397 (347, 448)","6.18 (6.12, 6.25)",-,-,Dominated

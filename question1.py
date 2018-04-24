@@ -21,7 +21,7 @@ print(lambda1,lambda2)
 
 #part4
 annual_recurrent=0.17
-rate_recurrent=-np.log(1-annual_recurrent)
+rate_recurrent=-np.log(1-annual_recurrent)/5
 print(rate_recurrent)
 
 #part5
@@ -33,3 +33,4 @@ print(rate_poststr_stroke,rate_poststr_strokedeath)
 time_stroke=7/365
 rate_stroke_post=1/time_stroke
 print(rate_stroke_post)
+

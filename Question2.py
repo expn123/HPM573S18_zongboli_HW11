@@ -21,7 +21,7 @@ print(lambda1,lambda2)
 
 #part4
 annual_recurrent=0.17
-rate_recurrent=-np.log(1-annual_recurrent)
+rate_recurrent=-np.log(1-annual_recurrent)/5
 print(rate_recurrent)
 
 #part5
