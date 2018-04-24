@@ -147,10 +147,10 @@ class Cohort():
     def get_total_cost(self):
         return self.totaldiscountedcost
 
-cohort_ONE=Cohort(1,THERAPY_OR_NOT.WITHOUT.value)
+cohort_ONE=Cohort(2,THERAPY_OR_NOT.WITHOUT.value)
 cohort_ONE.simulate()
 
-cohort_TWO=Cohort(3,THERAPY_OR_NOT.WITH.value)
+cohort_TWO=Cohort(4,THERAPY_OR_NOT.WITH.value)
 cohort_TWO.simulate()
 
 def report_CEA():
