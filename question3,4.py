@@ -8,7 +8,7 @@ import Question2 as matrixdatat
 
 
 delta_t=0.25
-Discount_Rate=0.3
+Discount_Rate=0.03
 
 rate_matrix_wotherapy=[[None,matrixdata.lambda1,0,matrixdata.lambda2,matrixdata.non_stroke_deathrate],
                        [0,None,matrixdata.rate_stroke_post,0,0],
