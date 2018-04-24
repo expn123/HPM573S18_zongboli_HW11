@@ -1,0 +1,3 @@
+Name,E[Cost],E[Effect],E[dCost],E[dEffect],ICER
+Without Therapy,"11 (8, 15)","0.82 (0.82, 0.82)",-,-,-
+With Therapy,"17 (13, 22)","0.82 (0.81, 0.82)",-,-,Dominated
